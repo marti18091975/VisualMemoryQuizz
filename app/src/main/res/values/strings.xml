@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">VisualMemoryQuiz</string>
+    <string name="title_activity_activity2_view" translatable="false">Activity2View</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="text1_1">Hi! Welcome!\nYour nick,please:</string>
+    <string name="text1_2">Hi PericoPalotes! Wellcomeback</string>
+    <string name="text1_3">insert</string>
+    <string name="text1_4">start</string>
+    <string name="textad">USER %1$s \n AVERAGE SCORE %2$s \n RANKING %3$d</string>
+    <string name="text1_6">Welcomeback</string>
+    <string name="text1_7">please,your nick here</string>
+    <string name="text1_8">nick saved succesfully</string>
+    <string name="text1_9">your nick is used</string>
+    <string name="text1_10">there is some kind of error with the server</string>
+    <string name="text1_11">create a nick, please</string>
+    <string name="textfr1">VISUAL MEMORY QUIZ INFORMATION</string>
+    <string name="textfr2">How are you about visual memory? \nFollow the guides given by the game,\npay attention with all of the details you can memorize about the photos that will be shown,\nanswer the quiz questions \nATENTION!!!\n every correct answer add 1.12 points, if you click `I don`t know` option don`t add points, but if you wrong your answer less 0.55 points.\n Will you rise up the quiz?</string>
+    <string name="text2_1">Now, you will see 3 images during 12 seconds, look at them attentionly</string>
+    <string name="text2_2" translatable="false">OK</string>
+    <string name="text2_3">Wait while the image is loading</string>
+    <string name="textbd">Image number %1$d</string>
+    <string name="text2_5">Error loading image</string>
+    <string name="text3_1">Are you prepared to start the quiz?</string>
+    <string name="text3_2" translatable="false">OK</string>
+    <string name="textcc">IMAGE NUMBER %1$d </string>
+    <string name="text3_4">I don`t know</string>
+    <string name="text4_1" translatable="false">HALL OF FAME</string>
+    <string name="textdb">FINAL SCORE\n %1$s \n AVERAGE SCORE\n %2$s \n RANKING\n %3$d</string>
+    <string name="text4_5">"Error downloading data"</string>
+
+
+</resources>

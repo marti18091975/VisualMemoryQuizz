@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VisualMemoryQuiz</string>
+    <string name="text1_1">Hola! Benvingut!\n Crea el teu nick</string>
+    <string name="text1_2">Hola de nou,PericoPalotes! </string>
+    <string name="text1_3">insertar</string>
+    <string name="text1_4">començar</string>
+    <string name="textad">USUARI: %1$s \n PUNTUACIÓ MITJANA: %2$s \n RANKING: %3$d</string>
+    <string name="text1_6"></string>
+    <string name="text1_7">el teu nick aquí</string>
+    <string name="text1_8">nick guardat correctament</string>
+    <string name="text1_9">El teu nick ja està utilitzat</string>
+    <string name="text1_10">Hi ha algun tipus d`error amb el servidor</string>
+    <string name="text1_11">Crea el teu nick, siusplau</string>
+    <string name="textfr1">VISUAL MEMORY QUIZ INFORMACIÓ</string>
+    <string name="textfr2">Posa a proba la teva memòria visual,com? \nSegueix les indicacions del joc,\nfixat bé en tots els detalls que puguis memoritzar de les imatges que se`t mostraran,\nrespon a les preguntes del test... \nATENCIÓ!!!\n Cada resposta encertada suma 1.12 punts, si cliques a l`opció `no ho sé` sumes 0 punts, però si t`equivoques sumes -0.55 punts.\n Seràs capaç d`aprobar?"</string>
+    <string name="text2_1">Tot seguit et mostrarem 3 imatges durant 12 segons, mírales atentament</string>
+    <string name="text2_2" translatable="false">OK</string>
+    <string name="text2_3">espera mentre es carrega la imatge</string>
+    <string name="textbd">Imatge número %1$d </string>
+    <string name="text2_5">Error carregant la imatge</string>
+    <string name="text3_1">Estàs preparat per començar el test?</string>
+    <string name="text3_2" translatable="false">OK</string>
+    <string name="textcc">IMATGE NÚMERO %1$d </string>
+    <string name="text3_4">No ho sé</string>
+    <string name="text4_1" translatable="false">HALL OF FAME</string>
+    <string name="textdb">PUNTUACIÓ FINAL\n %1$s \n PUNTUACIÓ MITJANA\n %2$s \n RANKING\n %3$d</string>
+    <string name="text4_5">"Error en la càrrega de les dades"</string>
+</resources>

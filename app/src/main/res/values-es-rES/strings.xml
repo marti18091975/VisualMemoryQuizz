@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VisualMemoryQuiz</string>
+    <string name="text1_1">Hola! Bienvenido!\nCrea tu nick</string>
+    <string name="text1_2">Hola de nuevo,PericoPalotes! </string>
+    <string name="text1_3">insertar</string>
+    <string name="text1_4">empezar</string>
+    <string name="textad">USUARIO: %1$s \n PUNTUACIÓN MEDIA: %2$s \n RANKING: %3$d</string>
+    <string name="text1_6"></string>
+    <string name="text1_7">tu nick aquí</string>
+    <string name="text1_8">nick guardado correctamente</string>
+    <string name="text1_9">tu nick ya está utilizado</string>
+    <string name="text1_10">hay algun tipo de error con el servidor</string>
+    <string name="text1_11">crea tu nick, por favor</string>
+    <string name="textfr1">VISUAL MEMORY QUIZ INFORMACIÓN</string>
+    <string name="textfr2">Pon a prueba tu memoria visual,cómo? \nSigue las indicaciones del juego,\nfíjate bién en todos los detalles que puedas memorizar de las imagenes que se te mostrarán,\nresponde a las preguntas del test... \nATENCIÓN!!!\n Cada respuesta acertada suma 1.12 punts, si clicas la opción `no lo sé` sumas 0 puntos, pero si te equivocas restas 0.55 punts.\n Serás capaz de aprobar el test?"</string>
+    <string name="text2_1">A continuación te mostraremos 3 imagenes durante 12 segundos, míralas atentamente</string>
+    <string name="text2_2" translatable="false">OK</string>
+    <string name="text2_3">espera mientras se carga la imagen</string>
+    <string name="textbd">Imagen número %1$d</string>
+    <string name="text2_5">Error cargando la imagen</string>
+    <string name="text3_1">Estás preparado para empezar el test?</string>
+    <string name="text3_2" translatable="false">OK</string>
+    <string name="textcc">IMAGEN NÚMERO %1$d</string>
+    <string name="text3_4">No lo sé</string>
+    <string name="text4_1" translatable="false">HALL OF FAME</string>
+    <string name="textdb">PUNTUACIÓN FINAL\n %1$s \n PUNTUACIÓN MEDIA\n %2$s \n RANKING\n %3$d</string>
+    <string name="text4_5">"Error en la carga de datos"</string>
+</resources>

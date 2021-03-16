@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fons1"
+    tools:context=".Activity3.Activity3View">
+
+
+    <TextView
+        android:id="@+id/tv3act2"
+        android:layout_width="340dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="330dp"
+        android:background="@drawable/g3794"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="10sp"
+        android:paddingLeft="35sp"
+        android:paddingTop="20sp"
+        android:paddingRight="35sp"
+        android:paddingBottom="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3act3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5sp"
+        android:textColor="@color/b"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tv3act2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3act"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/vineta"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="10sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="60sp"
+        android:paddingRight="40sp"
+        android:text="@string/text3_1"
+        android:textAllCaps="true"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt3act"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/boto1"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="@string/text3_2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/b"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="3sp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="true"
+        android:isScrollContainer="true"
+
+        android:padding="5sp"
+        android:popupBackground="@color/design_default_color_primary_dark"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv3act2">
+
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/listView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3act2">
+
+        <ImageView
+            android:id="@+id/imageView3_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/resultat2" />
+
+        <ImageView
+            android:id="@+id/imageView3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clip" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/nova_imatge"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/pintada"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="20sp"
+        android:paddingRight="50sp"
+        android:paddingBottom="20sp"
+        android:text="IMAGE NUMBER 1"
+        android:textColor="@color/b"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
